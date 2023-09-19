@@ -52,7 +52,7 @@ const About = () => {
             </p>
           </motion.div>
           <motion.div className="flex flex-wrap mt-8 flex flex-wrap justify-between ">
-            {techStack.map((el, index) => (
+            {techStack.map((el) => (
               <motion.div
                 initial="hidden"
                 whileInView={"visible"}

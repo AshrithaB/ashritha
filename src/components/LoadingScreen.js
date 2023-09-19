@@ -1,10 +1,11 @@
 import React from "react";
 import styled from 'styled-components';
+import logogif from '../assets/logo.gif'
 
 const LoadingScreen = () => {
   return (
     <Container>
-      <Logo src="/images/logo.gif" alt="logo" />
+      <Logo src={logogif} alt="logo" />
     </Container>
   );
 }

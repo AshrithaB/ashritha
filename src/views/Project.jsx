@@ -18,8 +18,8 @@ const Project = () => {
           }
           >Projects</h1>
           <div className="projects-grid grid grid-cols-1 gap-8 mt-12 md:grid-cols-2 gap-8">
-            {projects.map((el) => (
-              <div className="project">
+            {projects.map((el, index) => (
+              <div className="project" key={el.index}>
                 <a href={el.link} target="_blank" rel="noreferrer">
                   <img src={el.img} className="zoom rounded-lg transition-transform duration-200 hover:scale-105" alt="thumbnail" width="100%"/>
                   </a>
@@ -37,7 +37,7 @@ const Project = () => {
                 <br />
                 <div className="flex-container flex flex-row flex-wrap">
                   {el.tech && el.tech.length > 0 && (el.tech.map((techItem) => (
-                    <div className="bg-gray-100 w-auto m-1 p-1 rounded-lg text-center ">
+                    <div className="bg-gray-50 w-auto m-1 p-1 px-2 rounded-lg text-center hover:scale-105">
                       {techItem}
                     </div>
                   )))}

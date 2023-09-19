@@ -1,9 +1,4 @@
 
-// Java, R, JavaScript (Node, React), SQL, HTML, CSS
-// Libraries /APIs: NumPy, Pandas, Matplotlib, scikit-learn, PyTorch, PyQt, Redux, MapReduce, Selenium, Crontab
-// Tools: Jupyter, RStudio, AWS (S3, Redshift, EC2, Glue, Apache Airflow), Databricks, Docker, Hadoop
-// Databases & ETL: MySQL, Firestore, MongoDB, MS SQL Server, Excel, Power BI, Tableau, SSIS, SSRS, SSAS
-
 export const techStack = [
 
   { name: "Python", link: "https://img.icons8.com/color/48/python--v1.png", alt:"python" },
@@ -37,10 +32,10 @@ export const techStack = [
   { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
   
   { name: "NumPy", link: "https://img.icons8.com/color/480/numpy.png", alt:"numpy" },
-  { name: "Pandas", link: "/images/Pandas_logo.svg.png" },
-  { name: "Matplotlib", link: "/images/matplotlib.png" },
-  { name: "scikit-learn", link: "/images/scikit learn.png" },
-  { name: "PyTorch", link: "/images/PyTorch.png" },
+  { name: "Pandas", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" },
+  { name: "Matplotlib", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Created_with_Matplotlib-logo.svg/2048px-Created_with_Matplotlib-logo.svg.png" },
+  { name: "scikit-learn", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1200px-Scikit_learn_logo_small.svg.png" },
+  { name: "PyTorch", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/640px-PyTorch_logo_icon.svg.png" },
   
   { name: "Machine Learning", link: "https://img.icons8.com/stickers/100/artificial-intelligence.png", alt:"artificial-intelligence" },
   { name: "Deep Learning", link: "https://img.icons8.com/external-becris-lineal-becris/64/external-deep-learning-artificial-intelligence-becris-lineal-becris.png", alt:"deep-learning" },
@@ -59,26 +54,26 @@ export const techStack = [
 
 export const contactLinks = [
   { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/in/ashrithab/"},
-  { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/AshrithaB'},
-// add links below
-//   { name: 'Stack Overflow', url: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/40/000000/external-stack-overflow-is-a-question-and-answer-site-for-professional-logo-color-tal-revivo.png', link: 'https://stackoverflow.com/users/11788531/aakash-sharma' },
-// { name: 'Instagram', url: 'https://img.icons8.com/doodle/40/000000/instagram-new--v2.png', link: 'https://www.instagram.com/aakashsh1999/' }
+  { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/AshrithaB'}
 ]
 
+
 export const projects = [
-  { name: 'Disney Plus Clone', 
+  { 
+    name: 'Disney Plus Clone', 
     link: "https://disneyplus-clone-8f6c3.web.app/", 
     gitlink: "https://github.com/AshrithaB/disneyplus-clone", 
     desc: "Disney+ clone app built using JavaScript, React, Firebase, Node.js. It offers a user-friendly interface for streaming content, similar to the original Disney+ platform. Firebase for user authentication & employing React-slick for dynamic content display.",
-    img: "/images/disney.png",
+    img: 'https://user-images.githubusercontent.com/47385051/261822325-0f4b62f4-57a1-44fd-9dc4-ae0dbbe47f4e.png', 
     tech: ["JavaScript", "CSS", "HTML", "React", "Firebase", "Redux", "Node.js", "npm", "React-slick"]
   },
   {
+    
     name: "Visualizing minor crimes",
     link: 'https://github.com/AshrithaB/Visualizing-the-Complexities-of-Juvenile-Delinquency',
     gitlink: 'https://github.com/AshrithaB/Visualizing-the-Complexities-of-Juvenile-Delinquency',
     desc: 'In-depth data analysis of a cross-national ISRD-2 study using data visualization techniques to create dashboards and reports. Identified strong associations between traumatic instances and delinquent acts across different nations, demonstrating impact of family dynamics and victimization on juvenile delinquency.',
-    img: '/images/visual.png',
+    img: 'https://user-images.githubusercontent.com/47385051/268812130-17bb96dd-9241-4737-ac67-7970aed1c359.png',
     tech: ["Python", "Tableau", "Matplotlib", "Seaborn"]
   }
 ]
@@ -90,14 +85,12 @@ export const skill = [
   },
   {
     name: 'Full Stack Web Development',
-    desc: "Through projects like the Disney+ Clone and Productivity Apps, I showcased my proficiency in full stack web development, utilizing a variety of technologies to create interactive and efficient web applications.",
-    img: "https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-app-development-responsive-web-design-justicon-lineal-color-justicon.png"
+    desc: "Through projects like the Disney+ Clone and Productivity Apps, I showcased my proficiency in full stack web development, utilizing a variety of technologies to create interactive and efficient web applications."
   },
   {
     name: 'ML & Data Analysis',
-    desc: "I have a solid foundation in ML and data analytics, through coursework and projects, where I applied data analysis and machine learning techniques to address complex challenges.",
-    img: "https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-backend-no-code-flaticons-flat-flat-icons.png"
-  },
+    desc: "I have a solid foundation in ML and data analytics, through coursework and projects, where I applied data analysis and machine learning techniques to address complex challenges."
+  }
 
 
 ]
