@@ -21,7 +21,7 @@ const Project = () => {
             {projects.map((el, index) => (
               <div className="project" key={el.index}>
                 <a href={el.link} target="_blank" rel="noreferrer">
-                  <img src={el.img} className="zoom rounded-lg transition-transform duration-200 hover:scale-105" alt="thumbnail" width="100%"/>
+                  <img src={el.img} className="zoom rounded-lg transition-transform duration-200 hover:scale-105 md:h-80 " alt="thumbnail"  />
                   </a>
                 <div className="flex flex-row flex-wrap">
                   <a href={el.link} target="_blank" rel="noreferrer">

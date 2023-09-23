@@ -11,11 +11,6 @@ const Home = () => {
   return (
     <>
       <div className={darkMode ? "bg-white" : "bg-gray-900"}
-        // style={
-        //   darkMode
-        //     ? { backgroundImage: `url('${cloud}')`, backgroundSize: "cover" }
-        //     : { backgroundImage: `url('${cloudDark}'`, backgroundSize: "cover" }
-        // }
       >
         <main
           className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-evenly h-screen"
@@ -49,7 +44,7 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Software Developer /  Data Analyst. I am graduate student pursuing MS in Data Analytics at San Jose State University
+              My interests lie in Software engineering, web development and data analysis. I am also a graduate student pursuing MS in Data Analytics at San Jose State University.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
@@ -59,7 +54,6 @@ const Home = () => {
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
                   <img alt="" src={darkMode ? el.url1 : el.url2}  />
-                  {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}
                 </a>
               ))}
             </div>
