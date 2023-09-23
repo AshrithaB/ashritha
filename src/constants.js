@@ -55,7 +55,7 @@ export const techStack = [
 export const contactLinks = [
   { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/in/ashrithab/"},
   { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/AshrithaB'},
-  { name: 'Email', url1: 'https://img.icons8.com/bubbles/48/new-post.png', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :'ashritha78587@gmail.com'}
+  { name: 'Email', url1: 'https://img.icons8.com/bubbles/48/new-post.png', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :'mailto:ashritha78587@gmail.com'}
 ]
 
 
