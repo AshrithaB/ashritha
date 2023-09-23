@@ -64,7 +64,7 @@ export const projects = [
     name: 'Disney Plus Clone', 
     link: "https://disneyplus-clone-8f6c3.web.app/", 
     gitlink: "https://github.com/AshrithaB/disneyplus-clone", 
-    desc: "Disney+ clone app built using JavaScript, React, Firebase, Node.js. It offers a user-friendly interface for streaming content, similar to the original Disney+ platform. Firebase for user authentication & employing React-slick for dynamic content display.",
+    desc: "Disney+ clone app built using JavaScript, React, Firebase, Node.js. It offers a user-friendly interface for streaming content, similar to the original Disney+ platform. Firebase is used for user authentication & employing React-slick for dynamic content display.",
     img: 'https://user-images.githubusercontent.com/47385051/261822325-0f4b62f4-57a1-44fd-9dc4-ae0dbbe47f4e.png', 
     tech: ["JavaScript", "CSS", "HTML", "React", "Firebase", "Redux", "Node.js", "npm", "React-slick"]
   },
@@ -82,7 +82,7 @@ export const projects = [
     gitlink: 'https://github.com/AshrithaB/Ludo-Board-Game/tree/master',
     desc: 'Ludo, originating from the Latin word "ludo," which means "I play," is a simple yet entertaining board game where players race their tokens from start to finish based on dice rolls. This project is an implementation of the classic Ludo game for two to four players using the OpenGL and C/C++ libraries.',
     img: 'https://github.com/AshrithaB/Ludo-Board-Game/blob/master/Screenshots/Game%20Inprogress.png?raw=true',
-    tech: ["HTML", "CSS", "JavaScript", "PHP"]
+    tech: ["C++", "C", "OpenGl"]
   },
   { 
     name: "Car Test Drive Management System",
@@ -104,7 +104,7 @@ export const projects = [
     name: "Detection of Wheat Spikes",
     link: 'https://ashrithab.github.io/Detection-of-Wheat-spikes/',
     gitlink: 'https://github.com/AshrithaB/Detection-of-Wheat-spikes/tree/main',
-    desc: 'A computer vision project, "Detection of Wheat Spikes," which empowers farmers by automatically tracking and optimizing wheat crops using advanced object detection models like Faster R-CNN and YOLO. This project not only showcases our implementation details but also highlights its significant contributions to agriculture and computer vision.',
+    desc: 'A computer vision project, "Detection of Wheat Spikes," which empowers farmers by automatically tracking and optimizing wheat crops using advanced object detection models like Faster R-CNN and YOLO.',
     img: 'https://github.com/AshrithaB/Detection-of-Wheat-spikes/blob/main/screenshots/implementation%20-%20data%20acquisition.png?raw=true',
     tech: ["Machine Learning", "scikit-learn", "object detection", "computer vision", "HTML", "CSS"]
   }
@@ -121,7 +121,7 @@ export const skill = [
   },
   {
     name: 'ML & Data Analysis',
-    desc: "I have a solid foundation in ML and data analytics, through coursework and projects, where I applied data analysis and machine learning techniques to address complex challenges."
+    desc: "I built a solid foundation in ML and data analytics, through coursework and projects, where I applied data analysis and machine learning techniques to address complex challenges."
   }
 
 

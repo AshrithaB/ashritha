@@ -46,7 +46,7 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              My interests lie in Software engineering, web development and data analysis. I am also a graduate student pursuing MS in Data Analytics at San Jose State University.
+              My interests lie in software engineering, web development and data analysis. I am also a graduate student pursuing MS in Data Analytics at San Jose State University.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
