@@ -13,11 +13,13 @@ const Home = () => {
       <div className={darkMode ? "bg-white" : "bg-gray-900"}
       >
         <main
-          className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-evenly h-screen"
+          className="mx-auto max-w-7xl px-4 py-16 flex flex-col items-center justify-center sm:px-6  md:flex-row lg:px-8 "
+          //mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 ${breakpoint === "md" ? "flex-col" : "flex-row"} items-center justify-center justify-evenly`}
+          // sm:px-6 mt-8 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-evenly h-screen
           id="/"
         >
-          <div className="sm:text-center lg:text-left">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl text-left">
+          <div className="lg:text-left">
+            <h1 className="mx-auto text-4xl tracking-tight font-extrabold text-gray-900 text-left py-8 sm:text-5xl md:text-6xl">
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
@@ -57,7 +59,7 @@ const Home = () => {
                 </a>
               ))}
             </div>
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+            <div className="mt-5 sm:mt-8 sm:flex  lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:scale-105 md:py-4 md:text-lg md:px-10"
                   href="https://drive.google.com/file/d/1IQIgjM6NZVNQKlQL_a0EHukM_TSlcnPI/view?usp=sharing" target="_blank" >
@@ -66,6 +68,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          <div>
           <motion.img
             initial="hidden"
             whileInView={"visible"}
@@ -83,6 +86,7 @@ const Home = () => {
             alt=""
             className="w-80 p-12 pb-8"
           />
+          </div>
         </main>
       </div>
     </>
