@@ -1,6 +1,6 @@
-# Disney+ Clone App
+# Personal Portfolio
 
-<!-- <img width="1440" alt="Home Page" src=""> -->
+<img width="1440" alt="Screenshot 2023-09-24 at 11 48 11 PM" src="https://github.com/AshrithaB/ashritha/assets/47385051/f7850375-2cfc-436b-880c-0c3da6578bae">
 
 ## Overview
 
