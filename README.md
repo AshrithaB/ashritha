@@ -8,7 +8,7 @@ A personal portfolio website which is visually appealing and user-friendly platf
 
 ## Features
 
-* Open sourcech
+* Open source
 * Responsive design
 * Simple & modern technologies (React, JavaScript and Tailwind CSS)
 
