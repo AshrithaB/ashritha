@@ -4,11 +4,11 @@
 
 ## Overview
 
-This is a Disney+ clone app built using JavaScript, React, Firebase, Node.js. It offers a user-friendly interface for streaming content, similar to the original Disney+ platform.
+A personal portfolio website which is visually appealing and user-friendly platform where you find my skills, experience, and achievements, offering a comprehensive introduction to my professional identity.
 
 ## Features
 
-* Open source
+* Open sourcech
 * Responsive design
 * Simple & modern technologies (React, JavaScript and Tailwind CSS)
 
