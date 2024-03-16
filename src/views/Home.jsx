@@ -34,6 +34,8 @@ const Home = () => {
                     1000,
                     "Data Analyst",
                     1000,
+                    "Data Scientist",
+                    1000
                   ]}
                   loop={Infinity}
                 />
