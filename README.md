@@ -12,7 +12,7 @@ A personal portfolio website which is visually appealing and user-friendly platf
 * Responsive design
 * Simple & modern technologies (React, JavaScript and Tailwind CSS)
 
-Website URL : [ashritha.live](https://ashritha.live/)
+Website URL : [AshrithaB.github.io](https://AshrithaB.github.io/)
 
 If you like this, please leave a ⭐! Thank you!
 
