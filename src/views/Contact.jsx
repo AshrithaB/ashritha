@@ -33,6 +33,7 @@ const Contact = () => {
                 <a
                   href={el.link}
                   target="_blank"
+                  rel="noreferrer"
                   className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-0 hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={darkMode ? el.url1 : el.url2} />
