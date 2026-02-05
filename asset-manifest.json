@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ashritha/static/css/main.e654e725.css",
-    "main.js": "/ashritha/static/js/main.2cf2c9f3.js",
+    "main.js": "/ashritha/static/js/main.54d8cc5f.js",
     "static/media/logo.gif": "/ashritha/static/media/logo.c3431b68343abd25b591.gif",
     "static/media/Logo.png": "/ashritha/static/media/Logo.20c975e6ab324d60d536.png",
     "static/media/intropic.png": "/ashritha/static/media/intropic.dca7d91606d0f786f9ce.png",
     "index.html": "/ashritha/index.html",
     "main.e654e725.css.map": "/ashritha/static/css/main.e654e725.css.map",
-    "main.2cf2c9f3.js.map": "/ashritha/static/js/main.2cf2c9f3.js.map"
+    "main.54d8cc5f.js.map": "/ashritha/static/js/main.54d8cc5f.js.map"
   },
   "entrypoints": [
     "static/css/main.e654e725.css",
-    "static/js/main.2cf2c9f3.js"
+    "static/js/main.54d8cc5f.js"
   ]
 }
